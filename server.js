@@ -31,6 +31,8 @@ mongoose.connect(`mongodb+srv://skjainoddin39854:hngmFxWB8ZLTHpwW@cluster0.lbfgv
 //  JWT_SECRET=tUao3/fmx20gO0uLwpnlJ6t2qzMeOEWAxsIz/OG+3y4=`, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // User Schema
+
+
 const userSchema = new mongoose.Schema({
   name: String,
   email: String,
